@@ -6,5 +6,6 @@
 #Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
 
 #Write your code below this line 👇
-TotalBill=int(input ("What is the total amount of bill? " ))
+TotalBill=float(input ("What is the total amount of bill? " ))
 TotalPayers=int(input ("How many of us are together ? " ))
+TotalTip=int(input ("How much percentage of tip we want to give 10, 12 or 15 %? " ))

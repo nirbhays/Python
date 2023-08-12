@@ -9,3 +9,7 @@
 TotalBill=float(input ("What is the total amount of bill? " ))
 TotalPayers=int(input ("How many of us are together ? " ))
 TotalTip=int(input ("How much percentage of tip we want to give 10, 12 or 15 %? " ))
+tipValue=(TotalTip/TotalBill)*100
+totalpyableBill=tipValue+TotalBill
+billforeach=round(totalpyableBill/TotalPayers,2)
+print( f"Each of us have to pay : {billforeach}")
